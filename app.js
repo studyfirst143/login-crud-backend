@@ -6,7 +6,7 @@ import StudentRoutes from './routes/StudentsRoutes.js'
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+      origin: "https://login-crud-frontend2.vercel.app",
     Credentials: true
 }))
 

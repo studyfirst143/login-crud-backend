@@ -6,7 +6,7 @@ import StudentRoutes from './routes/StudentsRoutes.js'
 const app = express();
 
 app.use(cors({
-      origin: "https://jude-crud.vercel.app",
+      origin: "https://judelogincrud.vercel.app",
     Credentials: true
 }))
 
